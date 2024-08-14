@@ -1,8 +1,8 @@
-# Laravel Admin Dashboard with Bootstrap 5.3
+# Polio Drive Admin Dashboard with Bootstrap 5.3
 
 ## Features
 
-The Laravel Admin Dashboard is a web-based application that serves as a starting point for an Admin Dashboard panel, complete with User Management and Roles Permissions.
+This Admin Dashboard is a web-based application that serves as a starting point for an Admin Dashboard panel, complete with User Management and Roles Permissions, Provinces, Polio Workers and other usefull modules.
 
 - Constructed using Laravel 10
 - Incorporates Bootstrap 5.3
@@ -11,7 +11,25 @@ The Laravel Admin Dashboard is a web-based application that serves as a starting
 - Equipped with a Roles Permissions System
 - Allows User Profile Viewing and Updating
 - Enables User Password Changes
-- More features to be added soon
+- Provinces
+- Divisions
+- Districts
+- Tehsils
+- Households with members
+
+## Application Setup & Configuration
+- Run your application by command: php artisan serve
+- Run all migrations with seeders: php tisan migrate --seed
+- Then run command for build: npm run dev
+
+- Login with users:
+- Admin:
+- username => admin@demo.com
+- password => 12345678
+
+- Polio Worker:
+- username => worker@demo.com
+- password => 12345678
 
 ## Contributing
 
